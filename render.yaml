@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: evidence-review-demo
+    env: docker
+    plan: free
+    healthCheckPath: /health
